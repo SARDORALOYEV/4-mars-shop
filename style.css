@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 156px;
+    box-sizing: border-box;
+border: 1px solid rgb(188, 170, 170);
+box-shadow: 0px 4px 8.7px 0px rgba(0, 0, 0, 0.25);
+background-color: rgb(255, 255, 255);
+border-top: none;
+padding: 50px 0px;
+margin-bottom: 71px;
+}
+.container{
+    max-width: 1228px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navigatsion{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 141px;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.nav__end{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav__link{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    text-decoration: none;
+    color: rgb(188, 170, 170);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+transition: 0.5s ease-in-out;
+
+}
+.nav__link:hover{
+    color: rgb(239, 64, 15);
+    transition: 0.5s ease-in-out;
+    border-bottom: 5px solid rgb(239, 64, 15);
+}
+.nav__btn{
+    width: 219px;
+    height: 63px;
+    box-sizing: border-box;
+border: 3px solid rgb(239, 64, 15);
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(239, 64, 15);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+background: rgba(217, 217, 217, 0);
+}
+.content{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(13, 12, 92);
+font-family: "Inter";
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.content__two{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(239, 64, 15);
+font-family: "Inter";
+font-size: 32px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero__container{
+    max-width: 1228px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero__box{
+    width: 290px;
+height: 290px;
+border-radius: 30px;
+box-shadow: 0px 4px 13.3px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+display: block;
+align-items: center;
+justify-content: center;
+}
+.box__title{
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+}
+.coin__box{
+    color: rgba(0, 0, 0, 0.67);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 16px;
+padding-bottom: 34px;
+}
+.last__text{
+    color: rgba(0, 0, 0, 0.75);
+font-family: "Inter";
+font-size: 13px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+}
+.textt{
+    font-size: 12px;
+}
+.picture__box{
+    text-align: center;
+}
+.hero__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px 22px;
+    padding-top: 117px;
+}
